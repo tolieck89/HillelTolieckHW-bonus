@@ -8,7 +8,7 @@
  */
 
 console.log(defUpperStr('My text')) // MY TEXT
-console.log(defUpperStr())          // DEFAULT TEXT
+console.log(defUpperStr());        // DEFAULT TEXT
 
 function defUpperStr (myText='DAFAULT TEXT'){
     return myText.toUpperCase();
